@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -37,6 +38,17 @@ public class CarController : MonoBehaviour
         HandleMotor();
         HandleSteering();
         UpdateWheels();
+        RestartPosition();
+    }
+
+    private void RestartPosition()
+    {
+       if(Input.GetKey("r"))
+       {
+           Debug.Log("RestartPosition");
+           transform.position = new Vector3(3f, -1.5f, transform.position.z);
+           transform.rotation = Quaternion.Euler(0f, 0f, 0f);
+       }
     }
 
     private void GetInput()

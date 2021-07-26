@@ -46,7 +46,7 @@ public class CarController : MonoBehaviour
        if(Input.GetKey("r"))
        {
            Debug.Log("RestartPosition");
-           transform.position = new Vector3(3f, -1.5f, transform.position.z);
+           transform.position = new Vector3(3f, transform.position.y, transform.position.z);
            transform.rotation = Quaternion.Euler(0f, 0f, 0f);
        }
     }

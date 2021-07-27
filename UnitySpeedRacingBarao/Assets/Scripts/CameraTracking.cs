@@ -7,7 +7,7 @@ public class CameraTracking : MonoBehaviour
 {
 
     [SerializeField] private Vector3 offset;
-    [SerializeField] private Transform target;
+    public Transform target;
     [SerializeField] private float translateSpeed;
     [SerializeField] private float rotationSpeed;
 

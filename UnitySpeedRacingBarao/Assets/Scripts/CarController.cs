@@ -38,7 +38,8 @@ public class CarController : MonoBehaviour
         HandleMotor();
         HandleSteering();
         UpdateWheels();
-        RestartPosition();
+        RestartPosition();       
+
     }
 
     private void RestartPosition()
@@ -97,4 +98,5 @@ public class CarController : MonoBehaviour
         wheelTransform.rotation = rot;
         wheelTransform.position = pos;
     }
+
 }

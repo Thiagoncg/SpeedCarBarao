@@ -2,10 +2,15 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+//Com base neste Script - vamos melhoralo e assim temos um carro mais tunano 😜
+//CRIAR UM CARRO COM MOTOR 4 POR 4
+//CRIAR UM CARRO COM FREIO NAS QUATRO RODAS
+//CRIAR UM JIP E UM CAMINHÃO.😱 
+//CRIE UM FREIO DE MÃO .
+//ACENDER E APAGAR A LUZ DO CARRO
 
 public class CarController : MonoBehaviour
-{
-    
+{    
     private const string HORIZONTAL = "Horizontal";
     private const string VERTICAL = "Vertical";
 
@@ -88,6 +93,7 @@ public class CarController : MonoBehaviour
        UpdateSingleWheelCollider(frontRighttWheelCollider, frontRighttWheelTransform);
        UpdateSingleWheelCollider(RearRightWheelCollider, RearRightWheelTransform);
        UpdateSingleWheelCollider(RearLeftWheelCollider, RearLeftWheelTransformr);
+       
     }
 
     private void UpdateSingleWheelCollider( WheelCollider wheelCollider, Transform wheelTransform)

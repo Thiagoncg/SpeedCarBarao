@@ -160,6 +160,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1901873683}
     m_Modifications:
+    - target: {fileID: 11414658, guid: f773d1fa10a4f4e0d88490eab5d5b46d, type: 3}
+      propertyPath: m_Texture
+      value: 
+      objectReference: {fileID: 2800000, guid: 9139e2e50eeae394a8295b6567a272d2, type: 3}
     - target: {fileID: 22414654, guid: f773d1fa10a4f4e0d88490eab5d5b46d, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -231,6 +235,14 @@ PrefabInstance:
     - target: {fileID: 22414654, guid: f773d1fa10a4f4e0d88490eab5d5b46d, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22414660, guid: f773d1fa10a4f4e0d88490eab5d5b46d, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 180.7899
+      objectReference: {fileID: 0}
+    - target: {fileID: 22414660, guid: f773d1fa10a4f4e0d88490eab5d5b46d, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 92.8041
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f773d1fa10a4f4e0d88490eab5d5b46d, type: 3}
